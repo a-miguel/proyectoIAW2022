@@ -1,0 +1,198 @@
+<!-- /*
+* Template Name: Property
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Untree.co" />
+    <link rel="shortcut icon" href="favicon.png" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap5" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>
+      Property &mdash; Free Bootstrap 5 Website Template by Untree.co
+    </title>
+  </head>
+  <body>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <?php include 'menu.php'; ?> 
+
+    <div
+      class="hero page-inner overlay"
+      style="background-image: url('images/hero_bg_2.jpg')"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-9 text-center mt-5">
+            <h1 class="heading" data-aos="fade-up">Servicios</h1>
+
+            <nav
+              aria-label="breadcrumb"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <ol class="breadcrumb text-center justify-content-center">
+                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <li
+                  class="breadcrumb-item active text-white-50"
+                  aria-current="page"
+                >
+                  Servicios
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="box-feature mb-4">
+              <span class="icon-android" style="font-size: 70px; color:#1AB4A3;"></span>
+              <h3 class="text-black mb-3 font-weight-bold">
+                Dispositivos android
+              </h3>
+              <p class="text-black-50">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <p><a href="#" class="learn-more">Read more</a></p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="box-feature mb-4">
+              <span class="icon-apple" style="font-size: 70px; color:#1AB4A3;"></span>
+              <h3 class="text-black mb-3 font-weight-bold">Dispositivos Apple</h3>
+              <p class="text-black-50">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <p><a href="#" class="learn-more">Read more</a></p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+            <div class="box-feature mb-4">
+              <span class="icon-laptop" style="font-size: 70px; color:#1AB4A3;"></span>
+              <h3 class="text-black mb-3 font-weight-bold">
+                Portátiles
+              </h3>
+              <p class="text-black-50">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <p><a href="#" class="learn-more">Read more</a></p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+            <div class="box-feature mb-4">
+              <span class="icon-gamepad" style="font-size: 70px; color:#1AB4A3;"></span>
+              <h3 class="text-black mb-3 font-weight-bold">Consolas</h3>
+              <p class="text-black-50">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <p><a href="#" class="learn-more">Read more</a></p>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="box-feature mb-4">
+              <span class="icon-cogs" style="font-size: 70px; color:#1AB4A3;"></span>
+              <h3 class="text-black mb-3 font-weight-bold">
+                Reparaciones
+              </h3>
+              <p class="text-black-50">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <p><a href="#" class="learn-more">Read more</a></p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="box-feature mb-4">
+              <span class="icon-tablet" style="font-size: 70px; color:#1AB4A3;"></span>
+              <h3 class="text-black mb-3 font-weight-bold">Tablets</h3>
+              <p class="text-black-50">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <p><a href="#" class="learn-more">Read more</a></p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+            <div class="box-feature mb-4">
+              <span class="icon-terminal" style="font-size: 70px; color:#1AB4A3;"></span>
+              <h3 class="text-black mb-3 font-weight-bold">
+                Mantenimiento
+              </h3>
+              <p class="text-black-50">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <p><a href="#" class="learn-more">Read more</a></p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+            <div class="box-feature mb-4">
+              <span class="icon-github" style="font-size: 70px; color: red;"></span>
+              <h3 class="text-black mb-3 font-weight-bold">Github</h3>
+              <p class="text-black-50">
+              Te envia al github de Sergio Castellote , profe de Implantación de Aplicaciones Web, IES PabloSerrano.
+              </p>
+              <p><a href="https://github.com/scastellotec/IAW_2022-2023" class="learn-more">Read more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <?php include 'piepagina.php'; ?>
+    <!-- /.site-footer -->
+
+    <!-- Preloader -->
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
